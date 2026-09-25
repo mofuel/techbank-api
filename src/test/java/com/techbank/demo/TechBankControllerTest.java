@@ -11,7 +11,7 @@ public class TechBankControllerTest {
     @Autowired TechBankController controller;
     @Test
     void devuelveDosSolicitudesFicticias() {
-        assertEquals(2, controller.solicitudes().size());
+        assertEquals(3, controller.solicitudes().size());
         assertEquals("Consulta", controller.solicitudes().get(0).get("tipo"));
     }
     @Test
